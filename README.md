@@ -47,7 +47,7 @@ Refer to the following configuration in your MCP client:
 ```
 "mcpServers": {
   "scanpy-mcp": {
-    "command": "scmcp",
+    "command": "scanpy-mcp",
     "args": [
       "run"
     ]
@@ -60,12 +60,12 @@ Refer to the following configuration in your MCP client:
 
 run it in your server
 ```
-scmcp run --transport sse --port 8000
+scmcp run --transport shttp --port 8000
 ```
 
 Then configure your MCP client, like this:
 ```
-http://localhost:8000/sse
+http://localhost:8000/mcp
 ```
 
 ## 🤝 Contributing

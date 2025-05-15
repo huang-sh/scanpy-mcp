@@ -1,3 +1,6 @@
+> ⚠️ **Important Notice**: This repository is no longer maintained. Please visit [scmcphub](https://github.com/scmcphub) for the latest version of MCP servers.
+
+
 # Scanpy MCP server
 
 An MCP server for scRNA-Seq analysis software Scanpy with natural language!
